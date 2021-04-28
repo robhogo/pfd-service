@@ -1,0 +1,27 @@
+{
+  "name": "pfd-service",
+  "version": "1.0.0",
+  "description": "Service to generate a pdf from content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robhogo/pfd-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robhogo/pfd-service/issues"
+  },
+  "homepage": "https://github.com/robhogo/pfd-service#readme",
+  "dependencies": {
+    "chrome-aws-lambda": "^8.0.2",
+    "handlebars": "^4.7.7",
+    "puppeteer-core": "^9.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^9.0.0"
+  }
+}
